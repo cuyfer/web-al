@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="./style.css">
+   <link rel="manifest" href="manifest.json" />
+  <title>Al</title>
+</head>
+<body>
+  <nav>
+    <div class="text ketik-container">
+      <h1 class="pacifico-sambung" id="text-ketik"></h1>
+      <span class="cursor" id="cursor"></span>
+    </div>
+    <div class="foto">
+      <img src="./potoal.jpg" alt="foto">
+    </div>
+  </nav>
+  <div class="nama" data-aos="zoom-in" data-aos-duration="900">
+    <h2 class="madimi-tebel">Hi! I'm AlGozali</h2>
+    <h3 class="pacifico-sambung bontot klik">@the last kid is cute</h3>
+  </div>
+  <div data-aos="fade-right" data-aos-duration="1000" class="bawah">
+  <div class="tentang madimi-tebel">
+    <div class="jud"><h2>About</h2></div>
+    <p>Hello, I'm Al Ghazali, the last child in a family. I have 3 older siblings so I'm the cutest kid</p>
+    <div class="fot-bar">
+     <span><i class="material-icons">star_rate</i></span>
+     <span><i class="material-icons">star_rate</i></span>
+     <span><i class="material-icons">star_rate</i></span>
+     <div class="what">
+       <i class="fa fa-whatsapp" aria-hidden="true"></i>
+     </div>
+    </div>
+  </div>
+  </div>
+  <div class="me tai-lebel" data-aos="fade-left" data-aos-duration="1500">
+    <h3>Some about me</h3>
+    <div class="foto git">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwYiRTzstKt3bSMjQWwhpSCkyV40hQ34BAe4k_mnO8g&s" alt="me">
+    </div>
+  </div>
+<div class="bok">
+    <div class="umur" data-aos="fade-right" data-aos-duration="1000">
+      <h2 class="madimi-tebel">8</h2>
+      <p class="madimi-tebel" style="font-size:12px;">Umur</p>
+    </div>
+    <div class="info">
+   <div class="sekolah" data-aos="fade-left" data-aos-duration="1000">
+      <h2 class="madimi-tebel">SD</h2>
+      <p class="anta-robot" style="font-size:10px;">Sekolah Dasar</p>
+    </div>
+   <div class="IQ" data-aos="fade-left" data-aos-duration="2000">
+     <h2 class="tai-lebel">110</h2>
+     <p class="anta-robot">IQ</p>
+   </div>
+   </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="./main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then((registration) => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch((error) => {
+                    console.error('Service Worker registration failed:', error);
+                });
+        }
+        
+    </script>
+</body>
+</html>
